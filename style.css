@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav{
+    justify-content: center;
+    margin-right: 450px;
+}
+#nav{
+    margin-left: 50px;
+    color: black;
+}
+#login{
+    z-index: 2;
+
+    margin-right: 60px;
+}
+.center {
+    width: 100%;
+    height: 100vh; 
+    background-image: url('img/pngtree-luxurious-modern-house-at-night-with-manicured-lawn-and-concrete-flooring-picture-image_3752990.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px; 
+    position: relative;
+}
+
+.center::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.text-container {
+    position: relative;
+    color: white;
+    z-index: 2;
+    max-width: 500px; 
+    padding-left: 20px; 
+}
+
+.text-container p {
+    font-size: 1.3em; 
+    text-align: center; 
+    margin-left: 0; 
+}
+
+.text-container h2 {
+    font-size: 2em;
+    margin-left: 0; 
+}
+
+@media (max-width: 576px) {
+    .text-container {
+        max-width: 100%; 
+        padding-left: 10px; 
+        padding-right: 10px; 
+    }
+    .text-container p {
+        font-size: 1em; 
+    }
+    .text-container h2 {
+        font-size: 1.8em; 
+    }
+}
+
+.footer {
+    background-color: #343a40;
+    color: white; 
+    padding: 2rem 1rem; 
+    text-align: center; 
+}
+
+.footer h5 {
+    font-size: 1.25rem; 
+    margin-bottom: 1rem; 
+}
+
+.footer p {
+    margin-bottom: 0; 
+}
+
+.footer ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.footer a {
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.footer a:hover {
+    color: #ffc107; 
+}
+
+.footer .text-center {
+    margin-top: 2rem; 
+}
